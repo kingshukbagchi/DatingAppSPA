@@ -14,11 +14,9 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
    // this.getValues();
   }
-
   registerToggle() {
     this.registerMode = true;
   }
-
  // getValues() {
  //   this.http.get("http://localhost:5000/api/values").subscribe(
  //     response => {
@@ -29,7 +27,6 @@ export class HomeComponent implements OnInit {
  //     }
  //   );
  // }
-
   cancelRegisterMode(registerMode: boolean) {
     this.registerMode = registerMode;
   }
